@@ -1,0 +1,193 @@
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+   
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    padding: 20px;
+    background: linear-gradient(45deg, #333, #333); /* Gradient background for the header */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #f4ff8e;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+header {
+    background: linear-gradient(45deg, #333, #333);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(45deg, #333, #333);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* Aside Styles */
+aside {
+    
+    background-position: center;
+    position: auto;
+    color: #fff;
+}
+
+aside ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    color: #ff6347;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.shaped-image {
+    float: left;
+    margin-right: 15px;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.grid-container img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form input[type="submit"] {
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff6b6b;
+}
+
+form label {
+    font-weight: bold;
+}
+
+
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: 20px 0;
+}
+
